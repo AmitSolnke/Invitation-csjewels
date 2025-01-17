@@ -45,9 +45,7 @@ const App = () => {
   
     // Default parameters
     const defaultParams = {
-      date: "12-12-2025",
-      location: "Pune-Kothrud",
-      to: "Gaurav Shahs",
+      to: "Gaurav Shah",
     };
   
     let shouldUpdate = false;
@@ -86,11 +84,11 @@ const App = () => {
           >
             <div className="flex flex-col justify-center items-center gap-3 text-2xl mt-[100px]">
               <p className=" font-normal ">Just as you did on</p>
-              <p className=" font-bold">{date}</p>
+              <p className=" font-bold">12-12-2025</p>
               <p className="font-normal">When you adorned the stunning</p>
               <p className="font-bold ">Finger Ring</p>
               <p className=" font-normal">at our</p>
-              <p className="font-bold">{location}</p>
+              <p className="font-bold">Pune-Kothrud</p>
             </div>
           </motion.div>
         )}
@@ -133,8 +131,6 @@ const App = () => {
           </motion.div>
         )} */}
       </div>
-
-      <h1 className="text-red-300">Hello</h1>
     </>
   )
 }

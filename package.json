@@ -1,5 +1,6 @@
 {
   "name": "invite-csjewels",
+  "homepage": "http://3.108.206.34/invite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
