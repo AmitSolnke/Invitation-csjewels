@@ -20,6 +20,12 @@ const App = () => {
     window.location.href = route
   }
 
+  const nameMapping = {
+    s: "Siddharth Shah",
+    g: "Gaurav Shah",
+    a: "Aditya Shah",
+  }
+
   useEffect(() => {
     const video = videoRef.current
 
@@ -45,7 +51,7 @@ const App = () => {
   
     // Default parameters
     const defaultParams = {
-      to: "Gaurav Shah",
+      to: "G",
     };
   
     let shouldUpdate = false;
@@ -116,7 +122,7 @@ const App = () => {
             exit={{opacity: 0}}
             className="absolute text-white text-4xl font-secondary top-20"
           >
-            {to || ""}
+            {nameMapping[to?.toLowerCase()] || nameMapping["g"]}
           </motion.h1>
         )}
 
